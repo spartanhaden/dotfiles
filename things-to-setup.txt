@@ -1,0 +1,42 @@
+----future----
+Devilspie
+zsh
+oh-my-zsh
+https://www.reddit.com/r/unixporn/comments/9un99u/kde_plasma_do_you_need_so_more_blur/
+
+
+----scaling----
+gsettings set org.gnome.desktop.interface text-scaling-factor 1.5
+from: https://www.reddit.com/r/linux/comments/8bt4eg/oh_cool_i_can_scale_my_display_300_but_not_125/e3c0asi
+eventually: https://www.linuxuprising.com/2019/04/how-to-enable-hidpi-fractional-scaling.html
+
+
+----NVIDIA----
+from: https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/
+
+----NVIDIA CUDA alternative----
+Install deb from nvidia website and follow instructions
+
+----app switching----
+from: https://askubuntu.com/questions/464946/force-alt-tab-to-switch-only-on-current-workspace-in-gnome-shell
+
+----X11 setup----
+from: https://hub.docker.com/r/henry2423/ros-x11-ubuntu/
+XSOCK=/tmp/.X11-unix
+XAUTH=/tmp/.docker.xauth
+touch $XAUTH
+xauth nlist $DISPLAY | sed -e 's/^..../ffff/' | xauth -f $XAUTH nmerge -
+
+xhost +local:root # for the lazy and reckless
+
+xhost -local:root
+
+
+----bluetooth----
+from: /etc/bluetooth/main.conf
+
+enabled FastConnectable
+added "Disable=Headset"
+
+----mouse acceleration----
+from: https://www.linuxuprising.com/2018/09/how-to-disable-mouse-acceleration-in.html
