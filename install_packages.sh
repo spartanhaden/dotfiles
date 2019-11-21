@@ -28,7 +28,8 @@ sudo apt install -y \
   iotop \
   expect \
   tig \
-  zsh
+  zsh \
+  byobu
 
 sudo snap install \
   discord \
