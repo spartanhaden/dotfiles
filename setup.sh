@@ -3,6 +3,9 @@
 # Install my commonly used packages
 ./install_packages.sh
 
+# Sets up vscode
+./vs_code_setup.sh
+
 # Change some gnome settings
 ./gsettings.sh
 
