@@ -12,8 +12,8 @@ alias bat="batcat --paging never"
 alias dst="dstat -am --swap"
 
 # venv
-alias create_venv="~/dotfiles/create_venv.sh"
-alias run_in_venv="~/dotfiles/run_in_venv.sh"
+alias create_venv="~/dotfiles/scripts/create_venv.sh"
+alias run_in_venv="~/dotfiles/scripts/run_in_venv.sh"
 
 # tmux
 alias tl="tmux list-sessions"
