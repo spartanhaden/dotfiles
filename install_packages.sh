@@ -30,11 +30,3 @@ sudo apt install -y \
   tig \
   zsh \
   byobu
-
-sudo snap install \
-  discord \
-  google-play-music-desktop-player
-
-sudo snap install --classic slack
-
-sudo snap install --classic code
