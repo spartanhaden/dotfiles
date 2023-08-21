@@ -14,3 +14,6 @@ chsh -s $(which zsh)
 
 # Install oh My Zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Add custom stuff to zshrc
+echo "source ~/dotfiles/extra_zshrc.sh" >> ~/.zshrc
